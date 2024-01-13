@@ -1,0 +1,124 @@
+Time complexity - Rate at which the time taken 
+increases with respect to the input size rather.
+
+Rate at which time increases.
+
+Time complexity:
+
+Big oh Notation - O(time taken)
+
+Big Oh - the number of steps the below code will take
+for(i = 1;i<=5;i++)
+{
+    cout << "Raj";
+}
+assigning comparision printing increment
+
+TC - worst case scenario
+avoid constants
+avoid lower values (adding 1 to 10000000 - no significance)
+
+O(n x 3) -->Time complexity
+
+best case 
+average case
+worst case
+
+if(marks < 25) cout << "grade D"
+else if(marks < 45) cout << "grade C"
+else if(marks < 65) cout << "grade B"
+else     cout << "grade A"
+
+Best Case - when a program takes least amount of time
+
+check + print 2 operations O(2)
+marks = 70 - O(4) - worst case
+
+System - 1 no 1 Million persons
+
+Average Case:
+
+O(4N3 + 3N2 + 8)
+
+8 constant is not considered
+
+N = 10^15
+
+Big oh Theota O Omega
+
+Big oh - worst case upper bound
+
+Omega - lowest bound
+
+Theota - Average complexity
+
+
+Questions
+
+i=0 --->N
+j=0 ---->N
+
+
+for(int i=0;i<N;i++)
+{
+    for(int j=0;j<N;j++)
+    {
+        Block of code - constant time
+    }
+}
+
+i=0 j=0.1.2.3....N
+i=1 j=0.1.2.3....N
+
+i=N-1 j=0.......N
+
+N+N+N+........+N 
+
+N x N  = N^2
+
+--------------------------------------------------
+
+for(i=0;i<N;i++)
+{
+    for(j=0;j<=0;j++)
+    {
+        code
+    }
+}
+
+i=0 j=0
+i=1 j=0.1
+i=2 j=0.1.2
+
+
+i=n-1 j=0.1.....n-1
+
+1 + 2 + 3 + 4 ......+ N
+NX(N+1)/2 = N^2/2 = O(N^2)
+------------------------------------------------------
+
+Space complexity - Memory Space
+
+Big - O Notation
+
+Auxillary Space(Space that you take to solve the problem) 
++ Input Space(The Space that you take to store the input)
+
+a b c = a + b  c is the extra space to solve the problem
+
+Space complexity = Auxillary space = c + input space (a,b)
+
+int a[N]; - Big O(N)
+
+b = a + b
+
+Never do anything to the input data should not be touched
+
+Dont manipulate the data
+
+1s = 10^8 operations
+2s = 2 x 10^8 operations
+5s = 5 x 10^8 operations
+
+TL = 1s -->O(10^8)
+
